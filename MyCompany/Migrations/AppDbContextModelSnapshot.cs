@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyCompany.Domain;
 
 namespace MyCompany.Migrations
@@ -48,7 +49,7 @@ namespace MyCompany.Migrations
                         new
                         {
                             Id = "44546e06-8719-4ad8-b88a-f271ae9d6eab",
-                            ConcurrencyStamp = "1c07fb23-ced7-48f9-bf0a-e0df233cd7a3",
+                            ConcurrencyStamp = "82845d91-3e9d-4eb8-bec2-bd42a2c98177",
                             Name = "admin",
                             NormalizedName = "ADMIN"
                         });
@@ -147,13 +148,13 @@ namespace MyCompany.Migrations
                         {
                             Id = "3b62472e-4f66-49fa-a20f-e7685b9565d8",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "091be5bf-9d58-40e6-98a8-e82859894571",
+                            ConcurrencyStamp = "03c1909c-5826-455e-b67d-cc70e497079e",
                             Email = "my@email.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "MY@EMAIL.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAEAACcQAAAAECBA6mt3xGNgyLjwyRhhtI3PI2IBKsm00Y3bAJfjdVrgT0++e45OV5Vh4SLTLPDHEQ==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEBz3FrKc8lo9lsA0ZOEeRDiZ9i3YBpbaC+PxdxW0zYS+T2U/bie5DukRq6AKtsAqeQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -327,7 +328,7 @@ namespace MyCompany.Migrations
                         {
                             Id = new Guid("63dc8fa6-07ae-4391-8916-e057f71239ce"),
                             CodeWord = "PageIndex",
-                            DateAdded = new DateTime(2020, 2, 8, 6, 13, 50, 96, DateTimeKind.Utc).AddTicks(9537),
+                            DateAdded = new DateTime(2022, 3, 25, 13, 31, 19, 936, DateTimeKind.Utc).AddTicks(6625),
                             Text = "Содержание заполняется администратором",
                             Title = "Главная"
                         },
@@ -335,7 +336,7 @@ namespace MyCompany.Migrations
                         {
                             Id = new Guid("70bf165a-700a-4156-91c0-e83fce0a277f"),
                             CodeWord = "PageServices",
-                            DateAdded = new DateTime(2020, 2, 8, 6, 13, 50, 97, DateTimeKind.Utc).AddTicks(2218),
+                            DateAdded = new DateTime(2022, 3, 25, 13, 31, 19, 936, DateTimeKind.Utc).AddTicks(7920),
                             Text = "Содержание заполняется администратором",
                             Title = "Новости"
                         },
@@ -343,7 +344,7 @@ namespace MyCompany.Migrations
                         {
                             Id = new Guid("4aa76a4c-c59d-409a-84c1-06e6487a137a"),
                             CodeWord = "PageContacts",
-                            DateAdded = new DateTime(2020, 2, 8, 6, 13, 50, 97, DateTimeKind.Utc).AddTicks(2284),
+                            DateAdded = new DateTime(2022, 3, 25, 13, 31, 19, 936, DateTimeKind.Utc).AddTicks(7989),
                             Text = "Содержание заполняется администратором",
                             Title = "Контакты"
                         });
